@@ -1,19 +1,20 @@
-import React, { Component } from "react";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import React, { Component } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 class Toast extends Component {
-  success = message => {
+
+  success = (message) => {
     toast.success(message);
-  };
+  }
 
-  info = message => {
+  info = (message) => {
     toast.info(message);
-  };
+  }
 
-  error = message => {
+  error = (message) => {
     toast.error(message);
-  };
+  }
 
   render() {
     return (
@@ -28,3 +29,4 @@ class Toast extends Component {
 }
 
 export default Toast;
+

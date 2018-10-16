@@ -1,3 +1,4 @@
-import ImageScroller from "./ImageScroller";
+import ImageScroller from './ImageScroller';
 
 export default ImageScroller;
+
